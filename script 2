@@ -1,0 +1,6 @@
+var firstName = prompt("First Name: ");
+var lastName = prompt("Last Name: ");
+var birthyear = prompt("Birth Year: ");
+var year = 2025;
+var age = year - parseInt(birthyear);
+document.getElementById("greet").innerHTML = "Hello " + firstName + " " + lastName + "! How does it feel to be " + age + " years old?";  
