@@ -1,0 +1,4 @@
+var nick = "Phoebe";
+var height = "60.2 inches";
+var weight = "51 kg"
+alert ("Name: " + nick + "Height: " + height + "Weight: " + weight);
