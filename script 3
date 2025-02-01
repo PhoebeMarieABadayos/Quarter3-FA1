@@ -7,7 +7,7 @@ function myFunction() {
 alert ("Name: " + nick + "Height: " + height + "Weight: " + weight);
   var txt;
   if (confirm("Do you wish to share your personal information with the site?")) {
-    txt = console.log("Name: " + nickname + "Height: " + height + "Weight: " + weight);
+    txt = console.log("Name: " + nick + "Height: " + height + "Weight: " + weight);
   } else {
     txt = console.log("User does not wish to share his/her information");
   }
